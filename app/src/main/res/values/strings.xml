@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ControlesBasicos</string>
+    <string name="label1">Introduce PRIMER valor</string>
+    <string name="label2">Introduce SEGUNDO valor</string>
+    <string name="label3">Resultado:</string>
+    <string name="label4">Introduce un DNI:</string>
+</resources>

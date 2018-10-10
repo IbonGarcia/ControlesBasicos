@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".actividad2">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginLeft="20px"
+        android:text="@string/label4"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:layout_marginRight="20px"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/ed1"
+            android:inputType="numberDecimal"
+            android:maxLength="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:hint="Numero DNI"
+            android:layout_weight="50"/>
+        <EditText
+            android:id="@+id/ed2"
+            android:inputType="textCapWords"
+            android:maxLength="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Letra"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/validar"
+        android:tag="botonVali"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="validar"
+        android:text="Validar DNI"/>
+</LinearLayout>
